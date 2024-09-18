@@ -1,0 +1,173 @@
+Body{
+    background-color: #fafafa;
+
+}
+
+
+.container{
+    width: 100%;
+    margin: 0%;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(137, 137, 160);
+
+}
+.myimage{
+    width: 45%;
+    height: 400px;
+    background-color: white;
+}
+
+.aboutme{
+    width: 55%;
+    height: 400px;
+ 
+}   
+.aboutme>p{
+    font-size: 23px;
+    word-spacing: 9px;
+    line-height: 35px;
+    
+    padding: 10px;
+    font-family: 'ChromeSansMM';
+    color: rgb(2, 0, 0);
+}
+p{
+    color:;
+    font-size: 20px;
+    font-family: 'ChromeSansMM';
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+   
+}
+.education>p, .experience>p{
+    font-family: 'lucida fox'; 
+color: rgb(145, 134, 134);
+line-height: 35px;
+}
+.logo>h1{
+    padding-left: 10px;
+}
+img{
+    border-radius: 50%;
+}
+.afore{
+    background-color: rgb(56, 53, 53);
+    color: white;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.service{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+a{
+    text-decoration: none;
+}
+.contact>p>a{
+    text-decoration: none;
+  color: black;
+}
+.left{
+    width: 60%;
+    margin: 20px 50px;
+    font-family: sans-serif;
+}
+.right{
+    width: 35%;
+    margin: 20px 50px;
+    font-family: sans-serif;  
+}
+
+h2,h3,h4{
+    font-family: 'ChromeSansMM';
+}
+
+
+@media  screen and (max-width:1000px) {
+    .container{
+        width: 100%;
+        margin: 0%;
+       flex-wrap: wrap;
+       height: auto;
+    }
+    .about{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        background-color: rgb(137, 137, 160);
+    
+    }
+    .service{
+        /* margin-top: 100px; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        border: 1px solid black;
+        
+        flex-wrap: wrap;
+    }
+    .education>p, .experience>p{
+        font-family: 'lucida fox'; 
+    color: rgb(145, 134, 134);
+    line-height: 35px;
+    }
+    .myimage{
+        width: 45%;
+        height: 300px;
+        background-color: rgb(137, 137, 160);
+    }
+    .myimage>img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .aboutme{
+        width: 100%;
+        height: 400px;
+        
+     
+    }   
+    .aboutme>p{
+        font-size: 15px;
+        word-spacing: 9px;
+        line-height: 23px;
+        
+        padding: 10px;
+        font-family: 'ChromeSansMM';
+        color: rgb(2, 0, 0);
+    }
+    a{
+        color: #fafafa;
+        font-family: 'coronna';
+    }
+}
